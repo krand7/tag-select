@@ -1,0 +1,1 @@
+/Users/kylerand/code/ember/tag-select/tmp/template_compiler-tmp_dest_dir-OJWrSaeW.tmp/tag-select/templates/components/tag-item.js

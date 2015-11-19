@@ -1,0 +1,14 @@
+{{#each model.tags as |tag|}}
+  {{#if tag.selected}}
+    <span class="selected-tag-title">
+      {{tag.title}}
+    </span>
+  {{/if}}
+{{/each}}
+
+
+<hr/>
+
+{{#each model.tags as |tag|}}
+  {{tag-item tag=tag}}
+{{/each}}

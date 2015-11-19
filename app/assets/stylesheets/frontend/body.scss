@@ -1,0 +1,15 @@
+$body-color: #333;
+$base-text-color: #fff;
+
+body {
+  background-color: $body-color;
+  color: $base-text-color;
+  font-family: Arial, sans-serif;
+  padding: 100px 100px 0;
+}
+
+@media (max-width: 992px) {
+  body {
+    padding: 100px 10px 0;
+  }
+}

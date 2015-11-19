@@ -1,0 +1,1 @@
+/Users/kylerand/code/ember/tag-select-rails/frontend/tmp/broccoli_merge_trees-input_base_path-zvnu9EA6.tmp/2/initializers/active-model-adapter.js
