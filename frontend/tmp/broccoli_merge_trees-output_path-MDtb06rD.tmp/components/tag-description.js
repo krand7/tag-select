@@ -1,1 +1,0 @@
-/Users/kylerand/code/ember/tag-select-rails/frontend/app/components/tag-description.js

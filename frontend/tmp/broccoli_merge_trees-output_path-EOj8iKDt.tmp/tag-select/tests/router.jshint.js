@@ -1,1 +1,0 @@
-/Users/kylerand/code/ember/tag-select-rails/frontend/tmp/jshinter-output_path-HX9vGprU.tmp/router.jshint.js

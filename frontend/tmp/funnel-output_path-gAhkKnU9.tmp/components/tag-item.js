@@ -1,1 +1,0 @@
-/Users/kylerand/code/ember/tag-select-rails/frontend/tmp/funnel-input_base_path-SMZyLsuE.tmp/0/components/tag-item.js
