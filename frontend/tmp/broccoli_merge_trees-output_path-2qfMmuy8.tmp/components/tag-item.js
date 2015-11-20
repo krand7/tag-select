@@ -1,1 +1,0 @@
-/Users/kylerand/code/ember/tag-select/app/components/tag-item.js

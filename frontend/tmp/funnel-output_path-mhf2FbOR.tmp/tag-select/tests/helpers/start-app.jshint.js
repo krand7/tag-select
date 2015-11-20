@@ -1,1 +1,0 @@
-/Users/kylerand/code/ember/tag-select/tmp/jshinter-output_path-3q8hKkKq.tmp/helpers/start-app.jshint.js

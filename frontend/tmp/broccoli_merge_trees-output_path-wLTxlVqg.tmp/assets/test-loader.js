@@ -1,1 +1,0 @@
-/Users/kylerand/code/ember/tag-select/bower_components/ember-cli-test-loader/test-loader.js

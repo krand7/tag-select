@@ -1,1 +1,0 @@
-/Users/kylerand/code/ember/tag-select/tmp/broccoli_merge_trees-input_base_path-xkOx189Q.tmp/6/tag-select/tests/helpers/start-app.jshint.js
