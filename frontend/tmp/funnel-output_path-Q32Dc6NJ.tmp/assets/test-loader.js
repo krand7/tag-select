@@ -1,0 +1,1 @@
+/Users/kylerand/code/ember/tag-select-rails/frontend/tmp/funnel-input_base_path-TEpZ1ujE.tmp/0/bower_components/ember-cli-test-loader/test-loader.js

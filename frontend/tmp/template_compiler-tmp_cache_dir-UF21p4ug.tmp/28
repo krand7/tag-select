@@ -1,0 +1,67 @@
+export default Ember.HTMLBars.template((function() {
+  return {
+    meta: {
+      "revision": "Ember@2.0.2",
+      "loc": {
+        "source": null,
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 0
+        }
+      },
+      "moduleName": "tag-select/templates/components/tag-description.hbs"
+    },
+    arity: 0,
+    cachedFragment: null,
+    hasRendered: false,
+    buildFragment: function buildFragment(dom) {
+      var el0 = dom.createDocumentFragment();
+      var el1 = dom.createComment("");
+      dom.appendChild(el0, el1);
+      var el1 = dom.createTextNode(" ");
+      dom.appendChild(el0, el1);
+      var el1 = dom.createComment("");
+      dom.appendChild(el0, el1);
+      var el1 = dom.createTextNode("\n");
+      dom.appendChild(el0, el1);
+      var el1 = dom.createElement("button");
+      dom.setAttribute(el1,"class","increase");
+      var el2 = dom.createTextNode("\nUp\n");
+      dom.appendChild(el1, el2);
+      dom.appendChild(el0, el1);
+      var el1 = dom.createTextNode("\n");
+      dom.appendChild(el0, el1);
+      var el1 = dom.createElement("button");
+      dom.setAttribute(el1,"class","decrease");
+      var el2 = dom.createTextNode("\nDown\n");
+      dom.appendChild(el1, el2);
+      dom.appendChild(el0, el1);
+      var el1 = dom.createTextNode("\n");
+      dom.appendChild(el0, el1);
+      return el0;
+    },
+    buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
+      var element0 = dom.childAt(fragment, [4]);
+      var element1 = dom.childAt(fragment, [6]);
+      var morphs = new Array(4);
+      morphs[0] = dom.createMorphAt(fragment,0,0,contextualElement);
+      morphs[1] = dom.createMorphAt(fragment,2,2,contextualElement);
+      morphs[2] = dom.createElementMorph(element0);
+      morphs[3] = dom.createElementMorph(element1);
+      dom.insertBoundary(fragment, 0);
+      return morphs;
+    },
+    statements: [
+      ["content","computedDescription",["loc",[null,[1,0],[1,23]]]],
+      ["content","title",["loc",[null,[1,24],[1,33]]]],
+      ["element","action",["increaseValence",["get","tag",["loc",[null,[2,52],[2,55]]]]],[],["loc",[null,[2,25],[2,57]]]],
+      ["element","action",["decreaseValence",["get","tag",["loc",[null,[5,52],[5,55]]]]],[],["loc",[null,[5,25],[5,57]]]]
+    ],
+    locals: [],
+    templates: []
+  };
+}()));

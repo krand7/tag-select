@@ -1,1 +1,0 @@
-/Users/kylerand/code/ember/tag-select-rails/frontend/tmp/jshinter-output_path-aMb3L2WS.tmp/test-helper.jshint.js

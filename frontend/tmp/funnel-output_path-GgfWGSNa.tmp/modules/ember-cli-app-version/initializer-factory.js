@@ -1,0 +1,1 @@
+/Users/kylerand/code/ember/tag-select-rails/frontend/tmp/funnel-input_base_path-0fZ0QtZ2.tmp/0/initializer-factory.js

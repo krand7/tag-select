@@ -1,14 +1,15 @@
-{{#each model.tags as |tag|}}
-  {{#if tag.selected}}
-    <span class="selected-tag-title">
-      {{tag.title}}
-    </span>
-  {{/if}}
-{{/each}}
-
+<div class="tag-option-container">
+  {{#each model as |tag|}}
+    {{tag-item tag=tag}}
+  {{/each}}
+</div>
 
 <hr/>
 
-{{#each model.tags as |tag|}}
-  {{tag-item tag=tag}}
+<div class="tag-selected-container">
+{{#each model as |tag|}}
+  {{#if tag.selected}}
+    {{tag-description tag.title tag.valence increaseValence="increaseValence" decreaseValence="decreaseValence" tag=tag}}
+  {{/if}}
 {{/each}}
+</div>

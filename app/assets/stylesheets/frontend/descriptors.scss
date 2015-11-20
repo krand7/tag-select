@@ -1,0 +1,43 @@
+$arrow-color: #eee;
+$primary: #31b2d1;
+
+.tag-description-container {
+  padding-right: 10px;
+  position: relative;
+}
+
+.highlight {
+  color: lighten($primary, 15);
+}
+
+.arrow-up {
+  border-bottom: 5px solid $arrow-color;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  height: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0;
+
+  &:hover {
+    border-bottom-color: $primary;
+    cursor: pointer;
+  }
+}
+
+.arrow-down {
+  border-top: 5px solid $arrow-color;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  top: 15px;
+  height: 0;
+  position: absolute;
+  right: 0;
+  width: 0;
+
+  &:hover {
+    border-top-color: $primary;
+    cursor: pointer;
+  }
+}
