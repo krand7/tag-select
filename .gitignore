@@ -4,12 +4,56 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
+## RUBY ON RAILS
+
 # Ignore bundler config.
 /.bundle
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
+
+# These files contain application specific passwords that should NEVER be included in version control.
+/config/application.yml
+/config/database.yml
+
+/public/cache/*
+/public/stylesheets/cache/*
+/public/javascripts/cache/*
+
+# Other Files
+
+/Gemfile.lock
+/db/schema.rb
+
+/.sass-cache/
+/coverage/*
+
+# OS generated files #
+.DS_Store
+
+## EMBER
+# compiled output
+/frontend/dist
+/frontend/tmp
+
+# dependencies
+/frontend/node_modules
+/frontend/bower_components
+
+# misc
+/frontend/connect.lock
+/frontend/libpeerconnection.log
+/frontend/npm-debug.log
+/frontend/testem.log
+
+# Ignore bundler config.
+/.bundle
 
 # Ignore all logfiles and tempfiles.
 /log/*
